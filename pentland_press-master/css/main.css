@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html, body {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
@@ -13,6 +13,9 @@ main{
   align-items: center;
 }
 
+.lax{
+  transition: ease 0.3s all;
+}
 .carousel-inner img{
   width: 100%;
   height: 100vh;
