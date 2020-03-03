@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html{
+  scroll-behavior: smooth;
+}
 
 html, body {
   height: 100vh;
@@ -229,7 +232,23 @@ hr.light-100{
   margin-bottom: 1rem; 
 }
 
+.arrow_top{
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  height: 35px;
+  width: 35px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.arrow_top img{
+  height: auto;
+  width: 35px;
+}
 
 
 

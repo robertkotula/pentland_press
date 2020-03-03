@@ -8,6 +8,11 @@
     width: 100%;
 }
 
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}
+
 .navbar-brand{
     margin-right: 0;
 }
@@ -19,6 +24,18 @@
     cursor: pointer;
     max-width: 100px;
     text-align: center;
+}
+
+.ml-auto, .mx-auto {
+    margin: auto;
+}
+
+.nav-space {
+    width: 25%;
+}
+
+a.navbar-brand {
+    width: 25%;
 }
 
 li.nav-item {
