@@ -1,9 +1,8 @@
-# pentland_press
-< WordPress Theme for the Pentland DC Scout Association >
+# Pentland Scouts - Rebranding Exercise
 
 New branding was introduced in 2018 by the Scouts Association with a direction that this be implemented across all platforms by end May 2020. A number of the websites in Pentland District have yet to make this transition. The primary purpose of the project to facilitate this move. An associated review of how this could be integrated with wider use of social media (Facebook) will also be undertaken.
 
-# OBJECTIVES AND SUCCESS CRITERIA
+### OBJECTIVES AND SUCCESS CRITERIA
 · Rebranding district websites to comply with current branding guidelines.
 · Migrate websites to a common platform  (Wordpress)
 · Standardisation of appearance
@@ -13,3 +12,4 @@ New branding was introduced in 2018 by the Scouts Association with a direction t
 · Documentation of hosting arrangements
 · Documentation of routine support requirements
 · Sustainability post-project
+#### :file_folder: Theme Name: pentland-press
