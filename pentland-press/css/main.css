@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html{
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lax{
+  transition: ease 0.3s all;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 25% 50%;
+}
+
+.shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+
+.carousel-txt{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+.container-fluid{
+  width: 80%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container-carousel{
+  width: 100%;
+}
+
+.wrapper{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.wrapper .btn{
+  margin: auto 5px;
+}
+
+.con-wrapper{
+  max-width: 1256px;
+}
+
+.row{
+  margin: 0;
+}
+
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+
+.btn-primary:hover{
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.carousel-inner{
+  height: 100vh;
+  width: auto;
+}
+
+.carousel-indicators{
+  bottom: 30px;
+}
+
+.hero{
+  height: 90vh;
+}
+
+.hero img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.jumbotron{
+  min-height: 10vh;
+  padding: 1rem;
+  border-radius: 0;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding{
+  padding-bottom: 2rem;
+}
+
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-code{
+  color: #e54d26;
+}
+
+.fa-bold{
+  color: #563d7c;
+}
+
+.fa-css3{
+  color: #2163af;
+}
+
+.fa-code, .fa-bold, .fa-css3{
+  font-size: 4em;
+  margin: 1rem;
+}
+
+.fun{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.gif{
+  max-width: 100%;
+}
+
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-facebook{
+  color: #3b5998;
+}
+
+.fa-twitter{
+  color: #00aced;
+}
+
+.fa-google-plus-g{
+  color: #dd4b49;
+}
+
+.fa-instagram{
+  color: #517fa4;
+}
+
+.fa-youtube{
+  color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+  color: #d5d5d5;
+}
+
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+footer a{
+  color: #d5d5d5;
+}
+
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem; 
+}
+
+.arrow_top{
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  height: 35px;
+  width: 35px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow_top img{
+  height: auto;
+  width: 35px;
+}
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
